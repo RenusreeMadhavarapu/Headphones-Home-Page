@@ -1,0 +1,373 @@
+body{
+
+    margin:0% 0%;
+    margin-bottom:5%;
+    font-family:'Poppins';
+    
+}
+
+
+/*nav section */
+nav{
+
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+   
+}
+
+.nav-items{
+
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.nav-item{
+
+    padding-left:50px;
+    font-size: large;
+    
+
+}
+.nav-item:first-of-type{
+
+    color: #fe5e35;
+}
+
+/* media queries for nav section */
+
+@media(min-width:1010px){
+    div.menu{
+        display:none;
+    }
+    }
+
+
+    @media screen and (max-width: 1010px)
+        {
+            nav{
+    
+                display:flex;
+            }
+
+            div.menu{
+                font-size:30px;
+            }
+    
+            .nav-items>.nav-item{
+    
+                display:none
+            
+            }
+
+            img.log{
+                width:100px;
+            }
+            
+            }
+
+            @media screen and (max-width: 620px){
+
+                img.act{
+                    width:300px;
+                }
+            }
+
+            @media screen and (max-width: 520px){
+
+                img.act{
+                    width:250px;
+                }
+                div.menu{
+
+                    font-size:25px;
+                }
+            }
+
+
+/*intro-section*/
+div.intro-section{
+ margin-left:5%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+/* left-section*/
+div.left-section h3{
+
+    font-size: 200%;
+    }
+    
+    div.left-section h1{
+    
+        font-size:400%;
+        text-shadow: 3px 0 #000; letter-spacing:2px; font-weight:bold;
+    
+
+    }
+    
+    div.sub-headlines{
+    
+        font-size:xx-large;
+        position:relative;
+        left:5%;
+    }
+    
+    .text{
+    
+        font-size:small;
+        
+        width:90%;
+    color:rgb(158,165,171);    
+    
+    }
+    button.action-btn:nth-child(1){
+              
+            
+       
+          border:none;
+          background-color:#fe5e35;
+          border-radius:30px;
+          width:150px;
+          height: 50px;
+          color:rgba(255, 255, 255, 0.877);
+          font-size:large;
+          font-weight: bold;
+        
+      
+          
+  
+  }
+  button.action-btn:nth-child(2){
+              
+            
+      border:none;
+      background-color:#fe5e35;
+      border-radius:30px;
+      width:150px;
+      height: 50px;
+      color:rgba(255, 255, 255, 0.877);
+      font-size:large;
+      font-weight: bold;
+      margin-left:10%;
+    
+  
+      
+
+}
+  
+
+
+/*right-section*/
+
+    div.right-section{
+
+        position:relative;
+        width:100%;
+    }
+
+    img.headphone{
+        width:500px;
+        padding-right:200px;
+        padding-bottom:100px;  
+    
+    }
+
+    
+    img.discount{
+
+        position:absolute;
+        bottom:30%;
+        left:0%;
+        width:150px;
+    
+    }
+
+    img.discount {
+            
+        -webkit-filter: drop-shadow(5px 5px 50px #222);
+        filter: drop-shadow(5px 5px 5px #222);
+      }
+    
+    div.discount-content{
+    
+        position:absolute;
+        bottom:36%;
+        left:5%;
+        color:#fff;
+        font-weight: bolder;
+    
+        
+    }
+
+    
+div.discount-content h1{
+      text-shadow: 3px 0 #fff; letter-spacing:2px; font-weight:bold;
+
+
+    }
+   div.discount-content h1
+    {
+    line-height:1px;
+    }
+div.dots{
+
+    display:flex;
+    justify-content: space-between;
+    width:25%;
+   left:20%;
+   bottom:11%;
+    position:absolute;
+
+}
+    div.dot.yellow-dot {
+        height: 25px;
+        width: 25px;
+        background-color:yellow;
+        border-radius: 50%;
+      }
+div.dot.tomato-dot{
+    height: 25px;
+        width: 25px;
+        background-color:tomato;
+        border-radius: 50%;
+
+}
+    div.dot.black-dot{
+        height: 25px;
+        width: 25px;
+        background-color:black;
+        border-radius: 50%;
+
+    }         button.action-btn:nth-child(3)
+        
+{
+              
+            
+            position:absolute;
+              border:none;
+              background-color:#fe5e35;
+              border-radius:30px;
+              width:150px;
+              height: 50px;
+              color:rgba(255, 255, 255, 0.877);
+              font-size:large;
+              font-weight: bold;
+              right:55%;     
+        }
+    
+       /* media queries for hero section*/
+       @media screen and (max-width:1400px){
+
+        img.headphone{
+        padding-right:100px;
+        }
+
+        div.dots{
+            margin-left:40px;
+        }
+
+        button.action-btn:nth-child(3){
+
+
+            left:30%;
+        }
+
+        
+       }
+
+
+       @media screen and (max-width:1195px){
+
+        img.headphone{
+        padding-right:0px;
+    
+        }
+
+        div.dots{
+            margin-left:50px;
+        }
+
+        button.action-btn:nth-child(3){
+
+
+            left:30%;
+        }
+
+        
+       }
+
+       
+       @media screen and (max-width: 900px)
+        {
+            
+    
+            div.intro-section{
+    
+                display:flex;
+                flex-direction: column;
+        
+            }
+        
+
+            div.right-section{
+
+                left:5%;
+            }
+            img.headphone{
+                width:350px;
+                
+            
+            }
+
+            img.discount{
+
+                
+                width:100px;
+                bottom:35%;
+            
+            }
+
+            div.discount-content{
+    
+    
+                bottom:38%;
+                left:3%;
+                font-size: smaller;
+                
+            }
+        
+           
+            div.dots{
+
+               display:none;
+            }
+            button.action-btn:nth-child(3){
+
+
+               position:absolute;
+               bottom:10%;
+               left:10%;
+            }
+           
+            
+
+        }
+
+        @media screen and (max-width: 700px){
+
+
+            button.action-btn:nth-child(3){
+
+
+                
+                left:20%;
+             }
+
+
+
+        }
