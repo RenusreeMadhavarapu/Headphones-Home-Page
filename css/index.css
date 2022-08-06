@@ -388,7 +388,12 @@ div.dot.tomato-dot{
             }
 
             button.action-btn:nth-child(1)
-{
-    margin-left:5%;
-}
+                   { 
+                         margin-left:5%;
+                                }
+
+                                button.action-btn:nth-child(2)
+                   { 
+                         margin-left:10%;
+                                }
         }
