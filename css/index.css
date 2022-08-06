@@ -388,13 +388,16 @@ div.dot.tomato-dot{
             }
 
             button.action-btn:nth-child(1)
+
                    { 
                          width:100px;
+                         font-size:small;
                                 }
 
                                 button.action-btn:nth-child(2)
                    { 
                          width:100px;
+                         font-size:small;
                                 }
 
                                 div.sub-headlines{
@@ -404,6 +407,6 @@ div.dot.tomato-dot{
                                     left:5%;
                                 }
                                 img.circles{
-                                    width:30px;
+                                    width:20px;
                                 }
         }
