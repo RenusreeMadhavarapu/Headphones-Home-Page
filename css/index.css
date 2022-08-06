@@ -376,7 +376,7 @@ div.dot.tomato-dot{
 
             div.left-section h3{
 
-                font-size:100%;
+                font-size:120%;
             }
 
             div.left-section h1{
@@ -389,11 +389,21 @@ div.dot.tomato-dot{
 
             button.action-btn:nth-child(1)
                    { 
-                         margin-left:5%;
+                         width:100px;
                                 }
 
                                 button.action-btn:nth-child(2)
                    { 
-                         margin-left:15%;
+                         width:100px;
+                                }
+
+                                div.sub-headlines{
+    
+                                    font-size:x-large;
+                                    position:relative;
+                                    left:5%;
+                                }
+                                img.circles{
+                                    width:30px;
                                 }
         }
