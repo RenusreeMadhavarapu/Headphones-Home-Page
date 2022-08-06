@@ -371,3 +371,24 @@ div.dot.tomato-dot{
 
 
         }
+        @media screen and (max-width:480px){
+
+
+            div.left-section h3{
+
+                font-size:100%;
+            }
+
+            div.left-section h1{
+
+                font-size:300%;
+            }
+            img.log{
+                width:80px;
+            }
+
+            button.action-btn:nth-child(1)
+{
+    margin-left:5%;
+}
+        }
