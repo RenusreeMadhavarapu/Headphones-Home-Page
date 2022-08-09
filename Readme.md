@@ -20,7 +20,7 @@
 - Media Queries
 
 ### Project Deploy Link
-[CryptoHome](https://headphone-home.netlify.app/)
+[HeadphoneHome](https://headphone-home.netlify.app/)
 
 ### Author
 [Renusree Madhavarapu](https://github.com/RenusreeMadhavarapu)
