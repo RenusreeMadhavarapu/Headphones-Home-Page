@@ -85,11 +85,14 @@ img[alt="actions"]{
             @media screen and (max-width: 520px){
 
                 img[alt="actions"]{
-                    width:250px;
+                    width:220px;
                 }
                 div.menu{
 
                     font-size:25px;
+                }
+                img[alt="logo"]{
+                    width:70px;
                 }
             }
 
@@ -369,6 +372,16 @@ div.dot.tomato-dot{
 
 }
 
+@media (max-width:470px){
+
+    .left-section h1{
+
+        font-size:150%;
+
+    }
+
+}
+
 @media (max-width:1115px){
 
     .right-section{
@@ -493,7 +506,9 @@ div.dot.tomato-dot{
                 left:25%;
                 position:absolute;
             }
-
+            .right-section{
+                margin-left:30px;
+            }
 
     }
 
