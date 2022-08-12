@@ -4,15 +4,14 @@
  - Used media queries to make website responsive. 
 
 ## Screenshots
-
-
-![fullheadphonepage](https://user-images.githubusercontent.com/110158807/183582540-04d9f603-3839-4ea1-84e0-5916a38f3486.png)
-
+![githeadphone3](https://user-images.githubusercontent.com/110158807/184342555-16b80b2f-8800-41a0-b28f-903301d24a30.png)
 
 
 
 
-![head3](https://user-images.githubusercontent.com/110158807/183583633-d2a4df75-6a67-497c-8537-3101b4831b7f.png)
+
+
+![githeadphone2](https://user-images.githubusercontent.com/110158807/184342577-f1f8ee36-03b2-4891-8e94-de987fd29df4.png)
 
 ### Learned Concepts
 - Margin and Padding in CSS
