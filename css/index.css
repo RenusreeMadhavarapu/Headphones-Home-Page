@@ -55,6 +55,7 @@ img[alt="actions"]{
             nav{
     
                 display:flex;
+                margin-top:10px;
             }
 
             div.menu{
